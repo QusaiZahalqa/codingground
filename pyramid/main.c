@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-#include <stdio.h>
-
-
 void printer(int num, char c)
 {
     int i;
@@ -58,7 +55,7 @@ void pyramid(int hight)
 
 int main()
 {
-    int rows = 5;
+   int rows = 5;
     
    printf("Enter the pyramid hight: ");
    scanf("%d", &rows);
